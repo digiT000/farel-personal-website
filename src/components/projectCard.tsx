@@ -2,9 +2,9 @@ import "../styles/components/projectCard.css";
 
 import Chips from "./chips";
 
-interface MainType {
-  typeName: string;
-}
+// interface MainType {
+//   typeName: string;
+// }
 
 interface projectCardProps {
   title: string;
@@ -15,18 +15,11 @@ interface projectCardProps {
   onClick: () => void;
 }
 
-const projectType = {
-  "1": "Website Design",
-  "2": "Web Development",
-  "3": "Software Development",
-};
-
 function ProjectCard({
   title,
   description,
   listType,
   mainType,
-  url,
   onClick,
 }: projectCardProps) {
   const truncatedText = description.substring(0, 128) + "...";

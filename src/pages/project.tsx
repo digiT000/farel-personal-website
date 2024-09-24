@@ -1,4 +1,4 @@
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import NavigationBar from "../components/navigationBar";
 import ProjectCard from "../components/projectCard";
 import "../styles/project.css";
