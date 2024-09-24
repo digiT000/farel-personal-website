@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --orange: #f72c00;
+  --darkOrange: #911c02;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", system-ui;
+  color: #121212;
+  height: 100%;
+  background-image: url("./assets/main-background.svg");
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+main {
+  max-width: 728px;
+  padding: 60px 0 240px 0;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 16px;
+}
+/* FONT  */
+.heading-l {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.heading-s {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.bodyText {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #121212c0;
+  line-height: 160%;
+}
+.captionSmall {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #121212;
+}
+.bigText {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.25s ease-in-out;
+}
+
+/* COLOR */
+.orange {
+  color: var(--orange);
+}
+
+@media only screen and (max-width: 600px) {
+  .heading-l {
+    font-size: 2.4rem;
+  }
+  .heading-s {
+    font-size: 1.6rem;
+  }
+  .bodyText {
+    font-size: 1.6rem;
+  }
+  .bigText {
+    font-size: 4rem;
+  }
+}

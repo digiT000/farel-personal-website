@@ -1,0 +1,44 @@
+@import url("./index.css");
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.profileImage {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* PROFILE */
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.containerWrapper {
+  margin-bottom: 60px;
+}
+
+/* STATUS */
+.statusProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border: 2px solid #121212;
+  border-radius: 8px;
+  box-shadow: 0 8px 0 #121212;
+}
+.status {
+  padding: 12px 16px;
+  background-color: #ffe2dc;
+  border-radius: 4px;
+}

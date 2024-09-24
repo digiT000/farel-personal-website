@@ -1,0 +1,11 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 28px;
+}
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

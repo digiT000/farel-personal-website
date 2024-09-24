@@ -1,0 +1,13 @@
+.chips {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.mainChips {
+  background-color: #ffe2dc;
+  width: fit-content;
+}
+
+.listChips {
+  color: #121212;
+  background-color: #f8f7f7;
+}

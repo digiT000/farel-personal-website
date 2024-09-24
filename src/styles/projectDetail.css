@@ -1,0 +1,30 @@
+.mainProjectWrapper {
+  max-width: 1320px !important;
+  margin: 0 auto !important;
+}
+
+.projectWrapper {
+  max-width: 728px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.projectHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.techWrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.webViewContainer {
+  border: none;
+  border-radius: 8px;
+  border: 1px solid #dedede79;
+  width: 100%;
+  height: 600px;
+}
